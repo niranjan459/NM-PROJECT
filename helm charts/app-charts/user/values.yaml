@@ -1,0 +1,7 @@
+image:
+  repository: yourrepo/user-service
+  tag: "latest"
+replicaCount: 2
+service:
+  type: ClusterIP
+  port: 5000

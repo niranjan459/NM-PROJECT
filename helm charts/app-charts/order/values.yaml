@@ -1,0 +1,7 @@
+image:
+  repository: yourrepo/order-service
+  tag: "latest"
+replicaCount: 2
+service:
+  type: ClusterIP
+  port: 5001

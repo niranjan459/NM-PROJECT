@@ -1,0 +1,7 @@
+image:
+  repository: yourrepo/payment-service
+  tag: "latest"
+replicaCount: 2
+service:
+  type: ClusterIP
+  port: 5002
